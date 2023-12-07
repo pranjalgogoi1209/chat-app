@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.logo{
+    background-color: rgba(39, 78, 48, 0.399);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+
+}
+.logo img{
+    width: 30vw;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    gap: 20px;
+}
+.welcomeMsg{
+    font-size: 2rem;
+    color: rgb(39, 78, 48);
+}
+.textfield{
+    color: rgb(39, 78, 48);
+    width: 70%;
+}
+.button{
+    color: rgb(39, 78, 48) !important;
+    border-color: rgb(39, 78, 48) !important;
+    margin-top: 20px !important;
+}
+.button:hover{
+    background-color: rgba(39, 78, 48, 0.399) !important;
+    color: #fff !important;
+}
+.toggleLink{
+    color: blueviolet;
+    cursor: pointer;
+}

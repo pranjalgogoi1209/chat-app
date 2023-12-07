@@ -1,0 +1,21 @@
+.fullmessage{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.textArea{
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 213, 206);
+}
+
+.message{
+    font-size: .8rem;
+}
+.time{
+
+    font-size: .5rem;
+    text-align: right;
+}

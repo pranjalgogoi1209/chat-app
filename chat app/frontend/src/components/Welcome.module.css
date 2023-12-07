@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(39, 78, 48);
+    border-radius: 20px;
+    flex: 1;
+}
+.image{
+    width: 40%;
+}
+
+.description{
+    margin-top: -40px;
+
+}

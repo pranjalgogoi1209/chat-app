@@ -1,0 +1,33 @@
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.313);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.fullmessage{
+    display: flex;
+    gap: 8px;
+    width: max-content;
+    margin: 5px;
+}
+.textArea{
+    flex: 1;
+}
+.senderName{
+    font-size: 1rem;
+}
+.message{
+    font-size: .8rem;
+}
+.time{
+
+    font-size: .5rem;
+    text-align: right;
+}
